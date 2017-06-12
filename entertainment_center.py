@@ -27,7 +27,7 @@ dead_poets_society = media.Movie(
     q=tbn:ANd9GcSFiizcraYyxtIB2\
     imVhFaWB5eMW1m95_Hp42MVj8Ngxo3Eq386",
     "https://www.youtube.com/watch?v=wrBk780aOis"
-    )
+)
 
 fargo = media.Movie(
     "Fargo",
