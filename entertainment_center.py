@@ -9,33 +9,35 @@ toy_story = media.Movie(
     "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
     "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 
-avatar = media.Movie("Avatar",
-                     "A marine on an alien planet",
-                     "http://upload.wikimedia.\
-                     org/wikipedia/id/b/b0/Avatar\
-                     -Teaser-Poster.jpg",
-                     "https://www.youtube.com/watch\
-                     ?v=uZNHIU3uHT4")
+avatar = media.Movie(
+    "Avatar",
+    "A marine on an alien planet",
+    "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg",  # NOQA
+    "https://www.youtube.com/watch?v=uZNHIU3uHT4"
+    )
 
-dead_poets_society = media.Movie("Dead Poets Society",
-                                 "English teacher John\
-                                  Keating inspires his students \
-                                  to look at poetry with a different \
-                                  perspective of authentic knowledge \
-                                  and feelings.",
-                                 "http://t1.gstatic.com/images?\
-                                 q=tbn:ANd9GcSFiizcraYyxtIB2\
-                                 imVhFaWB5eMW1m95_Hp42MVj8Ngxo3Eq386",
-                                 "https://www.youtube.com/watch?v=wrBk780aOis")
+dead_poets_society = media.Movie(
+    "Dead Poets Society ",
+    "English teacher John "
+    "Keating inspires his students "
+    "to look at poetry with a different "
+    "perspective of authentic knowledge "
+    "and feelings.",
+    "http://t1.gstatic.com/images?\
+    q=tbn:ANd9GcSFiizcraYyxtIB2\
+    imVhFaWB5eMW1m95_Hp42MVj8Ngxo3Eq386",
+    "https://www.youtube.com/watch?v=wrBk780aOis"
+    )
 
-fargo = media.Movie("Fargo",
-                    "Jerry Lundegaard's inept crime falls \
-                    apart due to his and his henchmen's\
-                     bungling and the persistent police \
-                     work of the quite pregnant Marge Gunderson.",
-                    "https://images-na.ssl-images-amazon.com/\
-                    images/I/51cf494jBHL.jpg",
-                    "https://www.youtube.com/watch?v=6cJJjr8imTU")
+fargo = media.Movie(
+    "Fargo",
+    "Jerry Lundegaard's inept crime falls "
+    "due to his and his henchmen's "
+    "and the persistent police "
+    "of the quite pregnant Marge Gunderson.",
+    "https://images-na.ssl-images-amazon.com/I/51cf494jBHL.jpg",  # NOQA
+    "https://www.youtube.com/watch?v=6cJJjr8imTU"
+    )
 
 # Create a movies array which contains all movie objects
 
