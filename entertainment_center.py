@@ -35,7 +35,7 @@ fargo = media.Movie(
     "due to his and his henchmen's "
     "and the persistent police "
     "of the quite pregnant Marge Gunderson.",
-    "https://images-na.ssl-images-amazon.com/I/51cf494jBHL.jpg",  # NOQA
+    "http://img.moviepostershop.com/fargo-movie-poster-1996-1020194510.jpg",  # NOQA
     "https://www.youtube.com/watch?v=6cJJjr8imTU"
     )
 
