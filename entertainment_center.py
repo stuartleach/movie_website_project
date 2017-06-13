@@ -1,4 +1,6 @@
 import media
+
+# Import webpage builder
 import fresh_tomatoes
 
 # Movies go here
@@ -23,9 +25,7 @@ dead_poets_society = media.Movie(
     "to look at poetry with a different "
     "perspective of authentic knowledge "
     "and feelings.",
-    "http://t1.gstatic.com/images?\
-    q=tbn:ANd9GcSFiizcraYyxtIB2\
-    imVhFaWB5eMW1m95_Hp42MVj8Ngxo3Eq386",
+    "http://t1.gstatic.com/images?q=tbn:ANd9GcSFiizcraYyxtIB2imVhFaWB5eMW1m95_Hp42MVj8Ngxo3Eq386",  # NOQA
     "https://www.youtube.com/watch?v=wrBk780aOis"
 )
 
